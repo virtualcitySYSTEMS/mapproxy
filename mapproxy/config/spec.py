@@ -45,6 +45,7 @@ coverage = recursive({
     'ogr_where': str(),
     'ogr_srs': str(),
     'datasource': one_of(str(), [number()]),
+    'expire_tiles': str(),
     'where': str(),
     'srs': str(),
     'union': [recursive()],
